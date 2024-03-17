@@ -1,100 +1,133 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body {
-    font-family: sans-serif;
-    background-color: white;
-}
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            background-color: #EAD196;
+            display: flex;
+            justify-content: left;
+            padding: 20px;
+            align-items: center;
+        }
+        header h1 {
+            color: black;
+            font-size: 75px;
+        } 
+        header img {
+            height: 150px;
+            border: #BF3131 solid 10px;
+            margin-left: 20px;
+        }
+        header a {
+            text-decoration: none;
+            font-size: 30px;
+            justify-content: center;
+        }
+        a {
+            color: #7D0A0A;
+            margin: 25px;
+            border-bottom: #7D0A0A solid 5px;
+            color: #7D0A0A;
+            justify-content: center;
+            margin-left: 10px;
+        }
+        main {
+            background-color: #F3EDC8;
+        }
+        main img {
+            width: 250px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        nav a {
+            color: #7D0A0A;
+            margin: 0 10px;
+            color: ;
+            text-decoration: none;
+        }
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .pizza-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 0 20px;
+            justify-content: center;
 
-header {
-    justify-content: space-between;
-    margin-bottom: ;
-    background-color: black;
-        padding: 20px;
-    border-bottom: 5px solid white;
-}
-main{
-    text-align: center;
-}
-nav {
-    border-top: 5px solid white;
-    border-bottom: 5px solid white;
-    padding: 25px 100px 25px 95px;
-    justify-content: space-between;
-}
+        }
+        .pizza {
+            padding: 5px;
+            width: calc(33.33% - 20px);
+            margin-bottom: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            box-sizing: border-box;
+            width: 194px;
+            margin: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
 
-.nav-link {
-    font-size: 24px;
-    color: black;
-    text-decoration: none;
-}
+        }
+        .pizza img {
+            width: 100%;
+            border-radius: 10px;
+            height: auto;
+        }
+        .pizza h2 {
+            margin-top: 10px;
+            color: #333;
+        }
+        .pizza p {
+            margin-top: 5px;
+            color: #666;
+            margin: 10px 0;
+            margin: 5px 0;
+        }
+        .price {
+            font-weight: bold;
+            color: #f00;
+        }
+        footer {
+            background-color: #7D0A0A;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        div {
+            padding-top: 10px;
+        }
+        h1 {
+            text-align: center;
+        }
+       .kontact {
+           font-size: 20px;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-around; 
+        }
 
-h1 {
-    text-align: center;
-    color: white;
-    font-size: 36px;
-    margin-top: ;
-    margin-bottom: ;
-}
+        
 
-p {
-    font-size: 24px;
-}
-
-.info {
-    flex-wrap: wrap;
-    width: 1100px;
-    margin: 0px;
-}
-
-article {
-    background-color: white;
-    padding: ;
-    width: 400px;
-    margin: ;
-}
-
-.article-but {
-    text-decoration: none;
-    background-color: grey;
-    color: black;
-    font-size: 24px;
-    text-align: center;
-    padding: 10px 75px 10px 75px;
-}
-
-footer {
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
-}
-
-footer a {
-    margin-right: ;
-}
-
-div img{
-     width: 304px;
-     height: 242px;
-}
-div{
-    background-color: black;
-}
-header img{
-    width: 50px;
-    height:60px;
-}
-p{
-    color: white;
-}
-footer{
-    background-color: black;
-    color: white;
-}
-
-.game{
-    border: 3px double white;
-}
